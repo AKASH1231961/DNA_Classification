@@ -339,8 +339,4 @@ This project can be useful for:
 
 This dataset is synthetic and created for educational and research purposes only. It does not represent real patient or genomic records.
 
----
 
-# 👨‍💻 Author
-
-Developed as a Machine Learning and Bioinformatics project using Streamlit and Python.
