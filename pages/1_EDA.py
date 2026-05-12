@@ -20,8 +20,14 @@ fig = px.histogram(
     x="Class_Label",
     color="Class_Label"
 )
+fig.update_yaxes(
+    range=[0,800],
+    dtick=50,
+    )  
 
-st.plotly_chart(fig, use_container_width=True)
+# st.plotly_chart(fig, use_container_width=True)
+st.plotly_chart(fig, width="stretch")
+
 
 st.subheader("Disease Risk Distribution")
 
@@ -30,7 +36,9 @@ fig2 = px.pie(
     names="Disease_Risk"
 )
 
-st.plotly_chart(fig2, use_container_width=True)
+# st.plotly_chart(fig2, use_container_width=True)
+st.plotly_chart(fig2, width='stretch')
+
 
 st.subheader("GC Content vs AT Content")
 
@@ -41,4 +49,4 @@ fig3 = px.scatter(
     color="Class_Label"
 )
 
-st.plotly_chart(fig3, use_container_width=True)
+st.plotly_chart(fig3, width='stretch')
