@@ -339,4 +339,7 @@ This project can be useful for:
 
 This dataset is synthetic and created for educational and research purposes only. It does not represent real patient or genomic records.
 
+# App URL
+https://akash1231961-dna-classification-app-nrqzto.streamlit.app/
+
 
