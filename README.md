@@ -1,5 +1,12 @@
 # 🧬 DNA Classification and Analysis using Machine Learning
 
+
+## 👥 Team Members & Course Details
+*   **Team Members:** Akash S, Arya Suku, Ben Flis Ziya
+*   **Course:** Predictive Analytics
+*   **Instructor:** Dr. Aswin VS
+*   **Institution:** Digital University Kerala
+
 ## 📌 Project Overview
 
 This project is an interactive bioinformatics web application developed using Streamlit and Machine Learning to analyze and classify synthetic DNA samples.
